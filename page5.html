@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page5</title>
+    
+</head>
+<body>
+    <h1 align="center">HTML FORM</h1>
+    <table width=50% border="2" align="center">
+        <thead>
+            <th>Tag</th>
+            <th>คำอธิบาย</th>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>input</td>
+                <td>สร้างช่องรับข้อความต่างๆ</td>
+            </tr>
+            <tr>
+                <td>select</td>
+                <td>แสดงตัวเลือกในรูปแบบ Drop-down</td>
+            </tr>
+            <tr>
+                <td>option</td>
+                <td>สร้างตัวเลือก</td>
+            </tr>
+            <tr>
+                <td>button</td>
+                <td>สร้างปุ่ม</td>
+            </tr>
+            <tr>
+                <td>label</td>
+                <td>กำหนดป้ายชื่อให้รองรับข้อมูล</td>
+            </tr>
+            <tr>
+                <td>textarea</td>
+                <td>สร้างช่องรับข้อความแบบหลายบรรทัด</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h1 align = "center">แบบฟอร์มลงทะเบียน</h1>
+    <form action="" align = "center">
+        <div>
+            <label for="Firstname">ชื่อจริง</label>
+            <input type="text" name="fname" placeholder="ป้อนชื่อของคุณ" required>
+        </div>
+        <div>
+            <label for="Lastname">นามสกุล</label>
+            <input type="text" name="lname" placeholder="ป้อนนามสกุล" required>
+        </div>
+        <div>
+            <label for="Email">Email</label>
+            <input type="email" name="email" placeholder="ป้อนEmail" required>
+        </div>
+        <div>
+            <label for="Password">Password</label>
+            <input type="password" name="password" placeholder="ป้อนรหัสผ่าน" required>
+        </div>
+        <div>
+            <label for="ที่อยู่">ที่อยู่</label>
+            <textarea name="" id="" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="Age">อายุ</label>
+            <input type="number" name="age" min="0">
+        </div>
+        <div>
+            <label for="Date">วันเกิด</label>
+            <input type="date" name="Birthdate">
+        </div>
+        <div>
+            <label for="Tel">Tel.</label>
+            <input type="tel" name="tel" placeholder="เบอร์โทรศัพท์">
+        </div>
+        <div>
+            <label for="color">สีที่ชอบ</label>
+            <input type="color" name="color">
+        </div>
+        <div>
+            <label for="rangnumber">ช่วงตัวเลข</label>
+            <input type="range" name="rangnumber" value="1">
+        </div>
+        <div>
+            <label for="Edu">ระดับการศึกษา</label>
+            <select name="edu" id="">
+                <option value="มัธยม">มัธยม</option>
+                <option value="ปริญญาตรี">ปริญญาตรี</option>
+                <option value="ปริญญาโท">ปริญญาโท</option>
+            </select>
+        </div>
+        <div>
+            <label for="Gender">เพศ</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+        </div>
+        <div>
+            <label for="hobby">hobby</label>
+            <input type="checkbox" name="fav">เรียน
+            <input type="checkbox" name="fav">ทำงาน
+            <input type="checkbox" name="fav">นอน
+            <input type="checkbox" name="fav">เล่นเกมส์
+            <input type="checkbox" name="fav">สร้างเกมส์
+            <input type="checkbox" name="fav">อื่นๆ
+        </div>
+        <div>
+            <label for="file">Add file</label>
+            <input type="file">
+        </div>
+        <div>
+            <label for="Url">เว็บไซต์ของคุณ</label>
+            <input type="url">
+        </div>
+        <div>
+            <input type="submit" value="บันทึกข้อมูล">
+            <button type="submit">บันทึกข้อมูล</button>
+            <input type="reset" name="" id= "" value="ล้างข้อมูล">
+            <button type="reset">ล้างข้อมูล</button>
+        </div>
+    </form>
+<!--footer-->
+    <h1 align="center">
+        <a href="index.html">HOME</a>
+    </h1>
+</body>
+<footer>
+    
+</footer>
+</html>

@@ -10,13 +10,13 @@
     <h1>Page4</h1>
     <h2>Table</h2>
     <img src="photo/Capture.PNG" alt="">
-    <h3>รายการสินค้า</h3>
-    <table border="2">
+    <h3>รายการ</h3>
+    <table border="2" bgcolor ="gray" width=90% align="center">
         <thead>
             <th>Artist</th>
             <th>Name</th>
         </thead>
-        <tbody>
+        <tbody bgcolor="pink" align="center">
             <tr>
                 <td>
                     <img src="https://s.isanook.com/jo/0/rp/r/w728/ya0xa0m1w0/aHR0cHM6Ly9zLmlzYW5vb2suY29tL2pvLzAvdWQvNDgwLzI0MDE5OTMvaXUuanBn.jpg" alt="" width="550" height="290">
@@ -27,14 +27,29 @@
                 <td>
                     <img src="https://pbs.twimg.com/media/EuGNKCTUYAU1oFV.jpg" alt="" width="550" height="550">
                 </td>
-                <td>IU</td>
+                <td>
+                    IU
+                </td>
             </tr>
-
         </tbody>
+        <tfoot bgcolor = "white" align="center">
+            <tr>
+                <td colspan="2">
+                    IUUUUUUUUUUUUU
+                </td>
+            </tr>
+        </tfoot>
     </table>
 
     <hr>
-    <h2>
+    <ul>Attribute ของตาราง
+        <li><mark>colspan="x"</mark>รวมคอลัมน์ ค่า x คือจำนวนคอลัมน์ที่ต้องการเข้าร่วมด้วยกัน </li> 
+        <li><mark>rowspan="x"</mark>รวมแถว ค่า x คือจำนวนแถวที่ต้องการเข้าร่วมด้วยกัน </li> 
+        <li><mark>align="left,center,right"</mark>จัดตำแหน่งภาพ หรืออักษรภายในช่องตาราง ค่าDefultคือleft </li> 
+        <li><mark>cellpadding</mark>แสดงข้อมูลภายในตาราง หากมีค่ามากก็จะมีพื้นที่แสดงผลที่กว้างมากขึ้น โดยมีค่าเริ่มต้นเป็น0(หน่วยPixel) </li> 
+        <li><mark>cellspacing</mark>กำหนดขนาดเส้นตาราง หากมีค่ามากขึ้นเส้นตารางก็ จะมีขนาดมากตามไปด้วย โดยมีค่าเริ่มต้นเป็น0(หน่วยPixel)</li> 
+    </ul>
+    <h2 align="center">
     <a href="index.html" target="">Home</a>
     <a href="page1.html" target="">page1</a>
     <a href="page2.html" target="">page2</a>
